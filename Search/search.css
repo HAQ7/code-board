@@ -1,0 +1,181 @@
+a[href="./search.html"] {
+    color: #6c63ff;
+}
+
+section {
+    display: grid;
+    place-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+input {
+    width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: inset 7px 7px 14px #bebebe, inset -7px -7px 14px #ffffff;
+    border: none;
+    height: 30px;
+    font-family: "Rubik", sans-serif;
+    outline: none;
+}
+
+button:not(.pagination button) {
+    width: 100px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:  7px 7px 14px #bebebe,  -7px -7px 3px #ffffff;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: hsl(243, 100%, 65%);
+}
+
+.grid-container {
+    /* grid with 5 row and 2 columns */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+    margin-top: 30px;
+}
+
+
+.pagination {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    border-radius: 100px;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+.pagination a {
+    font-family: "Rubik", sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.2s;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    display: grid;
+    place-items: center;
+}
+a:hover {
+    color: #6c63ff;
+}
+
+.pagination a:hover {
+    color: #6c63ff;
+}
+
+.pagination svg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+form button:hover {
+    background-color: hsl(243, 100%, 65%);
+}
+
+.question {
+    /* border around each question */
+    width: max(20vw,300px);
+    border-radius: 30px;
+    background: #f0f0f0;
+    box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+    padding: 20px;
+    height: 70px;
+    font-size: 14px;
+    position: relative;
+}
+
+
+.question p:not(.question-title) {
+    margin: 0;
+    width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+    
+}
+
+.question-user {
+    font-size: larger;
+    margin-top: 12px !important;
+}
+
+.question-user .highlightWord {
+    font-weight: bold;
+}
+
+.question-time {
+    color: #757575;
+}
+
+.question-title {
+    font-weight: bold;
+    height: 70%;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.question-answer-number {
+    font-size: 12px;
+    color: #757575;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+}
+
+.img-holder {
+    position: absolute;
+    width: calc(100% - 40px);
+    bottom: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.question img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.question img:hover {
+    transform: scale(1.1);button:hover {
+    background-color: hsl(243, 100%, 65%);
+}
+}
+a:hover .question-title{
+    transition: 0.2s;
+    color: #6c63ff;
+}
